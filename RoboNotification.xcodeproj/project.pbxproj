@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39275DDB1F45715300C83239 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39275DDA1F45715300C83239 /* main.m */; };
+		39275DDE1F45715300C83239 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39275DDD1F45715300C83239 /* AppDelegate.m */; };
+		39275DE41F45715300C83239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39275DE21F45715300C83239 /* Main.storyboard */; };
+		39275DE71F45715300C83239 /* RoboNotification.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39275DE51F45715300C83239 /* RoboNotification.xcdatamodeld */; };
+		39275DE91F45715300C83239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39275DE81F45715300C83239 /* Assets.xcassets */; };
+		39275DEC1F45715300C83239 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39275DEA1F45715300C83239 /* LaunchScreen.storyboard */; };
+		39275DF51F45740500C83239 /* OrdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39275DF41F45740500C83239 /* OrdersViewController.m */; };
+		39275DF81F4576C300C83239 /* OneOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39275DF71F4576C300C83239 /* OneOrderViewController.m */; };
+		39D573B41F48309E00121B62 /* rnotify_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 39D573B31F48309E00121B62 /* rnotify_logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39275DD61F45715200C83239 /* RoboNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoboNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39275DDA1F45715300C83239 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39275DDC1F45715300C83239 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39275DDD1F45715300C83239 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39275DE31F45715300C83239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39275DE61F45715300C83239 /* RoboNotification.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RoboNotification.xcdatamodel; sourceTree = "<group>"; };
+		39275DE81F45715300C83239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39275DEB1F45715300C83239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39275DED1F45715300C83239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39275DF31F45740500C83239 /* OrdersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrdersViewController.h; path = ../OrdersViewController.h; sourceTree = "<group>"; };
+		39275DF41F45740500C83239 /* OrdersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrdersViewController.m; path = ../OrdersViewController.m; sourceTree = "<group>"; };
+		39275DF61F4576C300C83239 /* OneOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneOrderViewController.h; sourceTree = "<group>"; };
+		39275DF71F4576C300C83239 /* OneOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneOrderViewController.m; sourceTree = "<group>"; };
+		39D573B31F48309E00121B62 /* rnotify_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rnotify_logo.png; path = ../../../Desktop/rnotify_logo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39275DD31F45715200C83239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39275DCD1F45715200C83239 = {
+			isa = PBXGroup;
+			children = (
+				39275DD81F45715200C83239 /* RoboNotification */,
+				39275DD71F45715200C83239 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39275DD71F45715200C83239 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39275DD61F45715200C83239 /* RoboNotification.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39275DD81F45715200C83239 /* RoboNotification */ = {
+			isa = PBXGroup;
+			children = (
+				39275DDC1F45715300C83239 /* AppDelegate.h */,
+				39275DDD1F45715300C83239 /* AppDelegate.m */,
+				39275DF31F45740500C83239 /* OrdersViewController.h */,
+				39275DF41F45740500C83239 /* OrdersViewController.m */,
+				39275DF61F4576C300C83239 /* OneOrderViewController.h */,
+				39275DF71F4576C300C83239 /* OneOrderViewController.m */,
+				39275DE21F45715300C83239 /* Main.storyboard */,
+				39D573B31F48309E00121B62 /* rnotify_logo.png */,
+				39275DE81F45715300C83239 /* Assets.xcassets */,
+				39275DEA1F45715300C83239 /* LaunchScreen.storyboard */,
+				39275DED1F45715300C83239 /* Info.plist */,
+				39275DE51F45715300C83239 /* RoboNotification.xcdatamodeld */,
+				39275DD91F45715200C83239 /* Supporting Files */,
+			);
+			path = RoboNotification;
+			sourceTree = "<group>";
+		};
+		39275DD91F45715200C83239 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39275DDA1F45715300C83239 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39275DD51F45715200C83239 /* RoboNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39275DF01F45715300C83239 /* Build configuration list for PBXNativeTarget "RoboNotification" */;
+			buildPhases = (
+				39275DD21F45715200C83239 /* Sources */,
+				39275DD31F45715200C83239 /* Frameworks */,
+				39275DD41F45715200C83239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoboNotification;
+			productName = RoboNotification;
+			productReference = 39275DD61F45715200C83239 /* RoboNotification.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39275DCE1F45715200C83239 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Kirill Tabasov";
+				TargetAttributes = {
+					39275DD51F45715200C83239 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Q8DXY8REJT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 39275DD11F45715200C83239 /* Build configuration list for PBXProject "RoboNotification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39275DCD1F45715200C83239;
+			productRefGroup = 39275DD71F45715200C83239 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39275DD51F45715200C83239 /* RoboNotification */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39275DD41F45715200C83239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39275DEC1F45715300C83239 /* LaunchScreen.storyboard in Resources */,
+				39275DE91F45715300C83239 /* Assets.xcassets in Resources */,
+				39D573B41F48309E00121B62 /* rnotify_logo.png in Resources */,
+				39275DE41F45715300C83239 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39275DD21F45715200C83239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39275DDE1F45715300C83239 /* AppDelegate.m in Sources */,
+				39275DE71F45715300C83239 /* RoboNotification.xcdatamodeld in Sources */,
+				39275DDB1F45715300C83239 /* main.m in Sources */,
+				39275DF51F45740500C83239 /* OrdersViewController.m in Sources */,
+				39275DF81F4576C300C83239 /* OneOrderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		39275DE21F45715300C83239 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39275DE31F45715300C83239 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39275DEA1F45715300C83239 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39275DEB1F45715300C83239 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39275DEE1F45715300C83239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		39275DEF1F45715300C83239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39275DF11F45715300C83239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q8DXY8REJT;
+				INFOPLIST_FILE = RoboNotification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tabasov.RoboNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		39275DF21F45715300C83239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q8DXY8REJT;
+				INFOPLIST_FILE = RoboNotification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tabasov.RoboNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39275DD11F45715200C83239 /* Build configuration list for PBXProject "RoboNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39275DEE1F45715300C83239 /* Debug */,
+				39275DEF1F45715300C83239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39275DF01F45715300C83239 /* Build configuration list for PBXNativeTarget "RoboNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39275DF11F45715300C83239 /* Debug */,
+				39275DF21F45715300C83239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		39275DE51F45715300C83239 /* RoboNotification.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				39275DE61F45715300C83239 /* RoboNotification.xcdatamodel */,
+			);
+			currentVersion = 39275DE61F45715300C83239 /* RoboNotification.xcdatamodel */;
+			path = RoboNotification.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 39275DCE1F45715200C83239 /* Project object */;
+}
