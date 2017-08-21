@@ -8,16 +8,16 @@
 
 #import "OneOrderViewController.h"
 
-@interface OneOrderViewController () <UITableViewDataSource, UITableViewDelegate>
-@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@interface OneOrderViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *labelLabel;
 @end
 
 @implementation OneOrderViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    self.nameLabel.text = @"self.name";
+    
+    self.labelLabel.text = self.name;
 }
 
 @end

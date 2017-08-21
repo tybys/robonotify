@@ -11,7 +11,7 @@
 
 @interface OrdersViewController () <UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, strong) NSMutableArray *tempOrder;
-@property(nonatomic, strong) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
 @end
 
 @implementation OrdersViewController
@@ -22,15 +22,6 @@
     // при переходе с пуша отрисовать данные
     
     self.tempOrder = [[NSMutableArray alloc] initWithObjects:@"order#1", @"order#2", @"order#3", nil];
-}
-
-- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([segue.identifier isEqualToString:@"orderDetail"]) {
-        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        
-        NSString *name = self.tempOrder[indexPath.row];
-        [(OneOrderViewController *)segue.destinationViewController setTitle:name];
-    }
 }
 
 #pragma mark TableView
@@ -52,8 +43,24 @@
     return cell;
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    [self performSegueWithIdentifier:@"orderDetail" sender:self];
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"orderDetail"]) {
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        
+        NSString *name = self.tempOrder[indexPath.row];
+        OneOrderViewController *vc = segue.destinationViewController;
+        vc.name = name;
+    }
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    // програмный способ перехода в другой view
+    // OneOrderViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"OneOrderViewController"];
+    // vc.name = self.tempOrder[indexPath.row];
+    // [self.navigationController pushViewController:vc animated:YES];
+
+//    [self performSegueWithIdentifier:@"orderDetail" sender:self];
 }
 
 @end

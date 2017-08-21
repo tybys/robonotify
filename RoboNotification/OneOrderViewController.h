@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OneOrderViewController : UIViewController <UITableViewDelegate,UITableViewDataSource>
-@property (nonatomic, copy) NSString *name;
+@interface OneOrderViewController : UIViewController
+@property (nonatomic, strong) NSString *name;
 @end

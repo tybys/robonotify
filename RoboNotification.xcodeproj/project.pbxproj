@@ -15,7 +15,8 @@
 		39275DEC1F45715300C83239 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39275DEA1F45715300C83239 /* LaunchScreen.storyboard */; };
 		39275DF51F45740500C83239 /* OrdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39275DF41F45740500C83239 /* OrdersViewController.m */; };
 		39275DF81F4576C300C83239 /* OneOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39275DF71F4576C300C83239 /* OneOrderViewController.m */; };
-		39D573B41F48309E00121B62 /* rnotify_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 39D573B31F48309E00121B62 /* rnotify_logo.png */; };
+		395E10631F4B514C00F9E0DE /* LoginStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 395E10621F4B514C00F9E0DE /* LoginStory.storyboard */; };
+		395E10661F4B56B800F9E0DE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 395E10651F4B56B800F9E0DE /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +33,9 @@
 		39275DF41F45740500C83239 /* OrdersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrdersViewController.m; path = ../OrdersViewController.m; sourceTree = "<group>"; };
 		39275DF61F4576C300C83239 /* OneOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneOrderViewController.h; sourceTree = "<group>"; };
 		39275DF71F4576C300C83239 /* OneOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneOrderViewController.m; sourceTree = "<group>"; };
-		39D573B31F48309E00121B62 /* rnotify_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rnotify_logo.png; path = ../../../Desktop/rnotify_logo.png; sourceTree = "<group>"; };
+		395E10621F4B514C00F9E0DE /* LoginStory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginStory.storyboard; sourceTree = "<group>"; };
+		395E10641F4B56B800F9E0DE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		395E10651F4B56B800F9E0DE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +74,10 @@
 				39275DF41F45740500C83239 /* OrdersViewController.m */,
 				39275DF61F4576C300C83239 /* OneOrderViewController.h */,
 				39275DF71F4576C300C83239 /* OneOrderViewController.m */,
+				395E10641F4B56B800F9E0DE /* LoginViewController.h */,
+				395E10651F4B56B800F9E0DE /* LoginViewController.m */,
 				39275DE21F45715300C83239 /* Main.storyboard */,
-				39D573B31F48309E00121B62 /* rnotify_logo.png */,
+				395E10621F4B514C00F9E0DE /* LoginStory.storyboard */,
 				39275DE81F45715300C83239 /* Assets.xcassets */,
 				39275DEA1F45715300C83239 /* LaunchScreen.storyboard */,
 				39275DED1F45715300C83239 /* Info.plist */,
@@ -151,7 +156,7 @@
 			files = (
 				39275DEC1F45715300C83239 /* LaunchScreen.storyboard in Resources */,
 				39275DE91F45715300C83239 /* Assets.xcassets in Resources */,
-				39D573B41F48309E00121B62 /* rnotify_logo.png in Resources */,
+				395E10631F4B514C00F9E0DE /* LoginStory.storyboard in Resources */,
 				39275DE41F45715300C83239 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,6 +170,7 @@
 			files = (
 				39275DDE1F45715300C83239 /* AppDelegate.m in Sources */,
 				39275DE71F45715300C83239 /* RoboNotification.xcdatamodeld in Sources */,
+				395E10661F4B56B800F9E0DE /* LoginViewController.m in Sources */,
 				39275DDB1F45715300C83239 /* main.m in Sources */,
 				39275DF51F45740500C83239 /* OrdersViewController.m in Sources */,
 				39275DF81F4576C300C83239 /* OneOrderViewController.m in Sources */,
